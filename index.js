@@ -1,18 +1,23 @@
-var i= 5;
-if (i > 2)
-console.log("I am greater than 5");
-console.log("I am Not greater than 5");
+var s =document.createElement("p");
+var t = document.createTextNode("I am learning Javascript. I hope i get the hang of this and become a great web developer.");
+s.appendChild(t);
+document.body.appendChild(s);
 
-var i= 6;
-if (i > 3)
-console.log ("Is the length");
-
-
-var i= cat;
-if (i= cat){
-console.log  ("I am not a cat");
+var myNodelist = document.getElementsByTagName("Si");
+var i;
+for (i = 0; i <4; i++) {
+  document.write("This is my first javascript list" + i +"<br>");
+  
 }
 
-  else {
-    console.log  ("I am not a cat but a dog");
-  }
+var footer = document.createElement("footer");
+footer.textContent ="Created by Shamika Sims";
+footer.style. textAlign = "center"
+document.body.appendChild(footer);
+
+
+
+
+
+
+
